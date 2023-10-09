@@ -1,0 +1,27 @@
+* {
+    --space-cadet: #17183b;
+    --persian-green: #249c95;
+}
+
+header {
+    background-color: var(--persian-green);
+}
+
+.list-group-item {
+    background-color: blue;
+}
+
+.skills {
+    background-color: blue;
+    color: white;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.outer-card {
+}
+.inner-card {
+}
