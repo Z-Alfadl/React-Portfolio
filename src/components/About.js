@@ -1,12 +1,12 @@
 import React from "react";
-import avatar from "../assets/avatar.jpg";
+import avatar from "../assets/jate.png";
 //Component page for About Me Section
 export default function About() {
   const styles = {
     img: { maxWidth: "150px" },
   };
   return (
-    <div className="rounded shadow outer-card py-4 w-75 mx-auto text-center">
+    <div className="rounded shadow outer-card py-4 w-75 my-4 mx-auto text-center about">
       <h2>About</h2>
       <img
         className="rounded-circle img-fluid my-4"

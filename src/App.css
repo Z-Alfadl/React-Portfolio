@@ -1,27 +1,66 @@
 * {
     --space-cadet: #17183b;
     --persian-green: #249c95;
+    --background-color: #6C757D;
+    --foreground-color: #343A40;
+    --text-color: #E9ECEF;
+    --hover-color: #ADB5BD;
 }
 
+
+/* Header/Navbar Section */
 header {
-    background-color: var(--persian-green);
+    background-color: var(--foreground-color);
 }
 
-.list-group-item {
-    background-color: blue;
+.navbar-brand, .nav-link {
+    color: var(--text-color) !important;
 }
 
+.nav-link:hover {
+    color: var(--hover-color) !important;
+    font-size: 1.25rem;
+}
+
+
+/* About Me Section*/
+/* empty */
+
+/* Projects Section */
+.project {
+    width: 250px !important;
+    height: 250px;
+}
+
+
+
+/* Contact Form Section  */
+form {
+    background-color: var(--foreground-color);
+    color: var(--text-color) !important;
+}
+input, textarea {
+    background-color: #CED4DA !important;
+}
+
+.btn {
+    background-color: #CED4DA !important;
+}
+
+/* Resume Section  */
 .skills {
-    background-color: blue;
-    color: white;
+    background-color: var(--foreground-color);
+    color: var(--text-color)!important;
 }
-
-
 ul {
     list-style-type: none;
 }
 
-.outer-card {
+/* Footer Section */
+
+footer {
+    background-color: var(--foreground-color);
 }
-.inner-card {
+footer > a {
+    color: var(--text-color);
 }

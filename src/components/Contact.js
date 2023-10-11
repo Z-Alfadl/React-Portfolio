@@ -5,7 +5,7 @@ export default function Contact() {
     <div className="text-center">
       <h2>Contact</h2>
       <div>
-        <form>
+        <form className="rounded shadow w-50 mx-auto py-3">
           <div className="form-group">
             <label for="contactName">
               Name:
@@ -25,7 +25,7 @@ export default function Contact() {
             </label>
           </div>
           <div className="form-group">
-            <button type="submit" className="btn btn-primary">Submit</button>
+            <button type="submit" className="btn">Submit</button>
           </div>
         </form>
       </div>
