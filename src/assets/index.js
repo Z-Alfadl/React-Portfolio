@@ -3,6 +3,7 @@ import jate from "./jate.png";
 import poemApp from "./poemapp.png";
 import avatar from "./avatar.jpg";
 import SMAPI from "./SMAPI.png";
+import petspot from "./petspot.png"
 //central file to import/export all images
 export {
   charcreate,
@@ -10,4 +11,5 @@ export {
   poemApp,
   avatar,
   SMAPI,
+  petspot
 };
